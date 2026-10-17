@@ -5,7 +5,7 @@
 **Operating System:** Ubuntu Server 24.04.5 LTS  
 **Virtualization Platform:** Microsoft Hyper-V  
 **Project Status:** Active  
-**Current Milestone:** Linux Command-Line Fundamentals
+**Current Milestone:** Bash Backup Utility v1.0 — GitHub Documentation
 
 ---
 
@@ -62,17 +62,46 @@
 ---
 
 ## Milestone 2: Linux Command-Line Fundamentals
-**Status: NOT STARTED**
+**Status: IN PROGRESS — Guided Practice Completed; Independent Assessment Pending**
 
-### Planned Skills
+### Skills Progress
 
-- [ ] Linux filesystem navigation
-- [ ] File and directory management
-- [ ] File permissions and ownership
-- [ ] User and group administration
-- [ ] Package management
-- [ ] Process and service management
-- [ ] Basic shell scripting
+- [x] Linux filesystem navigation — Practiced
+- [x] File and directory management — Practiced
+- [x] File permissions and ownership — Practiced
+- [ ] User and group administration — Pending
+- [x] Package management — Practiced
+- [x] Process and service management — Practiced
+- [x] Basic shell scripting — Practiced
+
+## Milestone 3: Bash Backup Utility v1.0
+**Status: FUNCTIONAL TESTING COMPLETE — GITHUB PUBLICATION PENDING**
+
+### Features Implemented
+
+- [x] Timestamped backups of notes.txt
+- [x] Source-file existence validation
+- [x] Temporary-file creation using mktemp
+- [x] Copy and hard-link finalization using cp and ln
+- [x] Protection against overwriting existing backups
+- [x] Success and failure logging
+- [x] Meaningful exit statuses
+- [x] Temporary-file cleanup after backup attempts
+
+### Tests Completed
+
+- [x] Bash syntax validation using bash -n
+- [x] Successful backup creation
+- [x] Backup integrity verification using diff
+- [x] Success log verification
+- [x] Missing-source-file failure test
+- [x] Duplicate-filename rejection test
+- [x] Original backup integrity verification using SHA-256
+- [x] Temporary-file cleanup after success and failure
+
+### Skills Practiced
+
+Bash conditionals, variables, exit statuses, temporary files, hard links, file permissions, shell scripting, logging, troubleshooting, and validation.
 
 ---
 
